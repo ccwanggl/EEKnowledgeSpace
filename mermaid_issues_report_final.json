@@ -1,0 +1,308 @@
+[
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\03-Digital-Electronics\\02-组合逻辑电路\\008-可视化组合逻辑电路.md",
+    "issues": [
+      {
+        "line": 21,
+        "description": "节点 `F1[A>B/A=B/A<B]` 文本包含特殊字符（如 `<`, `>`, `|`）但未用引号包裹",
+        "fix": "将节点文本用引号包裹：`F1[\"A>B/A=B/A<B\"]`",
+        "content": "F --> F1[A>B/A=B/A<B]"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\06-PCB-Design\\02-信号完整性基础\\007-可视化信号完整性问题因果.md",
+    "issues": [
+      {
+        "line": 34,
+        "description": "节点 `A[低速 <10MHz]` 文本包含特殊字符（如 `<`, `>`, `|`）但未用引号包裹",
+        "fix": "将节点文本用引号包裹：`A[\"低速 <10MHz\"]`",
+        "content": "A[低速 <10MHz] --> B[去耦+接地]"
+      },
+      {
+        "line": 37,
+        "description": "节点 `E[高速 >100MHz]` 文本包含特殊字符（如 `<`, `>`, `|`）但未用引号包裹",
+        "fix": "将节点文本用引号包裹：`E[\"高速 >100MHz\"]`",
+        "content": "D --> E[高速 >100MHz]"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\06-PCB-Design\\03-PCB层叠与阻抗设计\\008-可视化PCB叠层与回流.md",
+    "issues": [
+      {
+        "line": 68,
+        "description": "节点 `F[长度差 < 5 mil]` 文本包含特殊字符（如 `<`, `>`, `|`）但未用引号包裹",
+        "fix": "将节点文本用引号包裹：`F[\"长度差 < 5 mil\"]`",
+        "content": "B --> F[长度差 < 5 mil]"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\07-Power-Management\\02-DC-DC转换器\\008-可视化DCDC拓扑与工作流程.md",
+    "issues": [
+      {
+        "line": 12,
+        "description": "节点 `B1[Vin > Vout]` 文本包含特殊字符（如 `<`, `>`, `|`）但未用引号包裹",
+        "fix": "将节点文本用引号包裹：`B1[\"Vin > Vout\"]`",
+        "content": "B1[Vin > Vout] --> B2[\"Vout = D·Vin\"]"
+      },
+      {
+        "line": 16,
+        "description": "节点 `C1[Vin < Vout]` 文本包含特殊字符（如 `<`, `>`, `|`）但未用引号包裹",
+        "fix": "将节点文本用引号包裹：`C1[\"Vin < Vout\"]`",
+        "content": "C1[Vin < Vout] --> C2[\"Vout = Vin/(1-D)\"]"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\01-电机数学模型与坐标变换\\004-PMSM电压方程与磁链模型.md",
+    "issues": [
+      {
+        "line": 138,
+        "description": "节点 `I1[Ld < Lq]` 文本包含特殊字符（如 `<`, `>`, `|`）但未用引号包裹",
+        "fix": "将节点文本用引号包裹：`I1[\"Ld < Lq\"]`",
+        "content": "I1[Ld < Lq]"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\01-电机数学模型与坐标变换\\005-转矩方程与机电能量转换.md",
+    "issues": [
+      {
+        "line": 128,
+        "description": "节点 `I2[Id<0 MTPA]` 文本包含特殊字符（如 `<`, `>`, `|`）但未用引号包裹",
+        "fix": "将节点文本用引号包裹：`I2[\"Id<0 MTPA\"]`",
+        "content": "I2[Id<0 MTPA] --> IP[内置式永磁同步电机<br/>IPMSM]"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\04-无传感器控制\\004-高频注入HFI与凸极效应.md",
+    "issues": [
+      {
+        "line": 158,
+        "description": "节点 `F[凸极率: L_q/L_d > 1]` 文本包含特殊字符（如 `<`, `>`, `|`）但未用引号包裹",
+        "fix": "将节点文本用引号包裹：`F[\"凸极率: L_q/L_d > 1\"]`",
+        "content": "D --> F[凸极率: L_q/L_d > 1]"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\08-仿真与验证\\001-MATLAB-Simulink模型搭建.md",
+    "issues": [
+      {
+        "line": 133,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "A[速度环PI] --> B[Id* 给定<br>Id=0]"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\08-仿真与验证\\003-离线参数辨识仿真.md",
+    "issues": [
+      {
+        "line": 177,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "D --> E[参数估计<br>R̂s, L̂d, L̂q, ψ̂f]"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\08-仿真与验证\\004-硬件在环HIL测试.md",
+    "issues": [
+      {
+        "line": 131,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "FPGA[FPGA I/O<br>捕获PWM/输出ADC]"
+      },
+      {
+        "line": 132,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "CPU[CPU 电机模型<br>1μs~10μs步长]"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\09-工程应用\\001-伺服驱动器设计.md",
+    "issues": [
+      {
+        "line": 105,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "P_ctrl[\"P控制器<br>Kp_p\"]"
+      },
+      {
+        "line": 108,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "PI_v[\"PI控制器<br>Kp_ω + Ki_ω/s\"]"
+      },
+      {
+        "line": 122,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "Ref[\"位置指令<br>θ*\"] --> P_ctrl"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\09-工程应用\\002-机器人关节模组.md",
+    "issues": [
+      {
+        "line": 214,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "MCU[\"FOC MCU<br>PWM正常\"] --> Gate[\"Gate Driver<br>UVLO/OCP\"]"
+      },
+      {
+        "line": 215,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "Gate --> MOSFET[\"三相桥臂<br>STO输入\"]"
+      },
+      {
+        "line": 216,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "Safety_PLC[\"Safety PLC<br>STO信号\"] -->|\"低电平有效\"| MOSFET"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\09-工程应用\\003-电动车电驱系统.md",
+    "issues": [
+      {
+        "line": 159,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "AC[\"电网 AC\"] --> PFC[\"PFC Boost<br>功率因数校正\"] --> DC_Bus[\"高压直流母线<br>400V/800V\"]"
+      },
+      {
+        "line": 160,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "DC_Bus --> Inverter[\"逆变器<br>FOC控制\"] --> Motor[\"PMSM电机\"]"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\09-工程应用\\005-工业变频器.md",
+    "issues": [
+      {
+        "line": 47,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "A[\"V/Hz 标量控制<br>开环/简单滑差补偿\"] --> B[\"滑差频率控制<br>闭环速度，无电流环\"]"
+      },
+      {
+        "line": 48,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "B --> C[\"间接 FOC<br>转速+电流双环，需电机参数\"]"
+      },
+      {
+        "line": 49,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "C --> D[\"直接 FOC<br>磁链观测器，无需速度传感器\"]"
+      },
+      {
+        "line": 50,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "D --> E[\"无传感器 FOC<br>SMO/EKF/HFI，全速域覆盖\"]"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\15-双控（控制理论与控制工程）\\deep-research-report.md",
+    "issues": [
+      {
+        "line": 31,
+        "description": "节点 `L[离散频谱 X[k]` 文本包含方括号 `[` 或 `]`，但未用引号包裹，可能导致解析错误",
+        "fix": "将节点文本用引号包裹：`L[\"离散频谱 X[k\"]`",
+        "content": "K -->|DFT| L[离散频谱 X[k]]"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\15-双控（控制理论与控制工程）\\07-MPC模型预测控制\\003-约束处理与QP求解器.md",
+    "issues": [
+      {
+        "line": 36,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "C --> D[QP标准形式<br>min 0.5*U'*H*U + f'*U]"
+      },
+      {
+        "line": 37,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "D --> E[求解器<br>IPOPT / qpOASES / OSQP]"
+      },
+      {
+        "line": 59,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "B --> B1[执行器饱和<br>u_min <= u <= u_max]"
+      },
+      {
+        "line": 60,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "C --> C1[安全限制<br>x_min <= x <= x_max]"
+      },
+      {
+        "line": 61,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "D --> D1[性能规格<br>y_min <= y <= y_max]"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\15-双控（控制理论与控制工程）\\07-MPC模型预测控制\\004-显式MPC与实时性.md",
+    "issues": [
+      {
+        "line": 42,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "A2 --> A3[提取区域<br>A_region*x <= b_region]"
+      },
+      {
+        "line": 43,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "A3 --> A4[存储查表<br>(K_i, k_i)]"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\15-双控（控制理论与控制工程）\\07-MPC模型预测控制\\005-MPC应用案例.md",
+    "issues": [
+      {
+        "line": 16,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "Est[状态估计器<br>x=[s,s_dot,theta,theta_dot]] --> MPC"
+      },
+      {
+        "line": 16,
+        "description": "节点 `Est[状态估计器<br>x=[s,s_dot,theta,theta_dot]` 文本包含方括号 `[` 或 `]`，但未用引号包裹，可能导致解析错误",
+        "fix": "将节点文本用引号包裹：`Est[\"状态估计器<br>x=[s,s_dot,theta,theta_dot\"]`",
+        "content": "Est[状态估计器<br>x=[s,s_dot,theta,theta_dot]] --> MPC"
+      },
+      {
+        "line": 17,
+        "description": "`<br>` 标签未正确闭合。Mermaid 要求使用 `<br/>` 或 `<br />`",
+        "fix": "将 `<br>` 改为 `<br/>`",
+        "content": "MPC --> Sat[执行器饱和<br>|u|<=5N]"
+      }
+    ]
+  }
+]

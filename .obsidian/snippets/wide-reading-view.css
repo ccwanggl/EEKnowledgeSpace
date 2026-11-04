@@ -1,0 +1,210 @@
+:root {
+  --wide-reading-max-width: 1200px;
+  --wide-reading-max-width-full: 1400px;
+}
+
+/* =========================================================
+   宽阅读视图 - 增加中部阅读区宽度并保持居中对齐
+   启用方式：Obsidian 设置 → 外观 → CSS 片段 → 勾选 wide-reading-view
+   同时确保：设置 → 编辑器 → "Readable line length" 已开启
+   ========================================================= */
+
+/* ---------------------------------------------------------
+   1. 阅读模式：容器居中、宽度可控
+   --------------------------------------------------------- */
+body .markdown-preview-view .markdown-preview-sizer {
+    width: 100% !important;
+    max-width: var(--wide-reading-max-width) !important;
+    min-width: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+}
+
+/* 当关闭 Readable line length 时，占满可用宽度 */
+body .markdown-preview-view:not(.is-readable-line-width) .markdown-preview-sizer {
+    max-width: 98% !important;
+}
+
+/* 单列/全屏时进一步加宽 */
+body .mod-root .workspace-leaf-content[data-type="markdown"] .markdown-preview-sizer {
+    max-width: var(--wide-reading-max-width-full) !important;
+}
+
+/* ---------------------------------------------------------
+   2. 编辑模式：容器居中、宽度可控
+   --------------------------------------------------------- */
+body .markdown-source-view .cm-sizer,
+body .markdown-source-view .cm-contentContainer,
+body .markdown-source-view .cm-content {
+    width: 100% !important;
+    max-width: var(--wide-reading-max-width) !important;
+    min-width: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+}
+
+body .markdown-source-view:not(.is-readable-line-width) .cm-sizer,
+body .markdown-source-view:not(.is-readable-line-width) .cm-contentContainer,
+body .markdown-source-view:not(.is-readable-line-width) .cm-content {
+    max-width: 98% !important;
+}
+
+body .mod-root .workspace-leaf-content[data-type="markdown"] .cm-sizer,
+body .mod-root .workspace-leaf-content[data-type="markdown"] .cm-contentContainer,
+body .mod-root .workspace-leaf-content[data-type="markdown"] .cm-content {
+    max-width: var(--wide-reading-max-width-full) !important;
+}
+
+/* ---------------------------------------------------------
+   3. 防止内容撑破容器
+   --------------------------------------------------------- */
+body .markdown-preview-view .markdown-preview-sizer > *,
+body .markdown-source-view .cm-sizer > * {
+    max-width: 100% !important;
+}
+
+/* ---------------------------------------------------------
+   4. Mermaid 图表：自适应 + 横向滚动
+   --------------------------------------------------------- */
+body .markdown-preview-view .mermaid,
+body .markdown-source-view .mermaid {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+}
+
+body .markdown-preview-view .mermaid svg,
+body .markdown-source-view .mermaid svg {
+    max-width: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto;
+}
+
+/* ---------------------------------------------------------
+   5. 表格：居中、占满宽度、两端对齐
+   --------------------------------------------------------- */
+
+/* 表格容器居中 */
+body .markdown-preview-view .table-wrapper,
+body .markdown-source-view .table-wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    overflow-x: auto !important;
+    text-align: center !important;
+}
+
+/* 表格本身：居中、占满容器 */
+body .markdown-preview-view table,
+body .markdown-source-view table,
+body .dataview.table-view-table {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    border-collapse: collapse !important;
+    table-layout: auto !important;
+    font-size: 0.95em !important;
+}
+
+/* 表头样式 */
+body .markdown-preview-view thead,
+body .markdown-source-view thead,
+body .dataview.table-view-table thead {
+    background-color: var(--background-modifier-hover, rgba(128, 128, 128, 0.15)) !important;
+    font-weight: 600 !important;
+}
+
+body .markdown-preview-view th,
+body .markdown-source-view th,
+body .dataview.table-view-table th {
+    text-align: center !important;
+    padding: 10px 12px !important;
+    border-bottom: 2px solid var(--background-modifier-border, #ccc) !important;
+    white-space: nowrap !important;
+}
+
+/* 单元格样式：两端对齐 */
+body .markdown-preview-view td,
+body .markdown-source-view td,
+body .dataview.table-view-table td {
+    text-align: justify !important;
+    text-justify: inter-word !important;
+    padding: 8px 12px !important;
+    border-bottom: 1px solid var(--background-modifier-border, #ddd) !important;
+    vertical-align: top !important;
+}
+
+/* 表格行斑马纹 */
+body .markdown-preview-view tbody tr:nth-child(even),
+body .markdown-source-view tbody tr:nth-child(even),
+body .dataview.table-view-table tbody tr:nth-child(even) {
+    background-color: var(--background-modifier-hover, rgba(128, 128, 128, 0.05)) !important;
+}
+
+/* 表格行悬停高亮 */
+body .markdown-preview-view tbody tr:hover,
+body .markdown-source-view tbody tr:hover,
+body .dataview.table-view-table tbody tr:hover {
+    background-color: var(--background-modifier-hover, rgba(128, 128, 128, 0.1)) !important;
+}
+
+/* 窄单元格（短数字/代码）保持居中，避免两端对齐导致难看 */
+body .markdown-preview-view td code,
+body .markdown-source-view td code,
+body .dataview.table-view-table td code,
+body .markdown-preview-view td:first-child:last-child,
+body .markdown-source-view td:first-child:last-child {
+    text-align: center !important;
+}
+
+/* ---------------------------------------------------------
+   6. 代码块：横向滚动，不折行
+   --------------------------------------------------------- */
+body .markdown-preview-view pre,
+body .markdown-source-view pre,
+body .markdown-preview-view code,
+body .markdown-source-view code {
+    max-width: 100% !important;
+    overflow-x: auto !important;
+    white-space: pre !important;
+    word-wrap: normal !important;
+}
+
+/* ---------------------------------------------------------
+   7. 图片与 Excalidraw：自适应
+   --------------------------------------------------------- */
+body .markdown-preview-view img,
+body .markdown-source-view img,
+body .markdown-preview-view .excalidraw-svg,
+body .markdown-source-view .excalidraw-svg {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+/* ---------------------------------------------------------
+   8. Kanban 与 Meta Bind
+   --------------------------------------------------------- */
+body .kanban-plugin__board {
+    max-width: 100% !important;
+}
+
+body .meta-bind-plugin-input-wrapper input[type="range"] {
+    width: 200px;
+}
+
+/* ---------------------------------------------------------
+   9. 移动端适配
+   --------------------------------------------------------- */
+body.is-mobile .markdown-preview-view .markdown-preview-sizer,
+body.is-mobile .markdown-source-view .cm-sizer {
+    max-width: 100% !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+}

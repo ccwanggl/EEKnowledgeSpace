@@ -1,0 +1,36 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 220' width='800' height='440'>
+  <style>.w{stroke:#333;stroke-width:2;fill:none;stroke-linecap:round}.t{font-family:sans-serif;fill:#333}</style>
+  <!-- LDO block -->
+  <rect x='130' y='40' width='80' height='60' fill='#E3F2FD' stroke='#1976D2' stroke-width='2.5' rx='6'/>
+  <text x='170' y='65' text-anchor='middle' class='t' font-size='12' font-weight='bold' fill='#1565C0'>LDO</text>
+  <text x='170' y='82' text-anchor='middle' class='t' font-size='9' fill='#1976D2'>Regulator</text>
+  <!-- Vin line -->
+  <line class='w' x1='30' y1='70' x2='130' y2='70'/>
+  <text x='25' y='65' text-anchor='end' class='t' font-size='11' font-weight='bold'>Vin</text>
+  <!-- C1 electrolytic -->
+  <line class='w' x1='50' y1='70' x2='50' y2='120'/>
+  <line x1='35' y1='120' x2='65' y2='120' stroke='#333' stroke-width='2.5'/>
+  <line x1='35' y1='130' x2='65' y2='130' stroke='#333' stroke-width='1'/>
+  <text x='50' y='150' text-anchor='middle' class='t' font-size='10' fill='#9C27B0'>C1 100uF</text>
+  <text x='50' y='163' text-anchor='middle' class='t' font-size='8' fill='#888'>electrolytic</text>
+  <!-- Vout line -->
+  <line class='w' x1='210' y1='70' x2='340' y2='70'/>
+  <text x='350' y='65' text-anchor='start' class='t' font-size='11' font-weight='bold'>Vout</text>
+  <!-- C2 ceramic 10uF -->
+  <line class='w' x1='250' y1='70' x2='250' y2='120'/>
+  <line x1='237' y1='120' x2='263' y2='120' stroke='#333' stroke-width='2.5'/>
+  <line x1='237' y1='130' x2='263' y2='130' stroke='#333' stroke-width='1'/>
+  <text x='250' y='150' text-anchor='middle' class='t' font-size='10' fill='#2196F3'>C2 10uF</text>
+  <!-- C3 ceramic 100nF -->
+  <line class='w' x1='310' y1='70' x2='310' y2='120'/>
+  <line x1='297' y1='120' x2='323' y2='120' stroke='#333' stroke-width='2.5'/>
+  <line x1='297' y1='130' x2='323' y2='130' stroke='#333' stroke-width='1'/>
+  <text x='310' y='150' text-anchor='middle' class='t' font-size='10' fill='#FF9800'>C3 100nF</text>
+  <!-- ground lines -->
+  <line class='w' x1='50' y1='130' x2='310' y2='130'/>
+  <line x1='180' y1='130' x2='180' y2='140' stroke='#333' stroke-width='2'/>
+  <line x1='165' y1='140' x2='195' y2='140' stroke='#333' stroke-width='1.5'/>
+  <line x1='170' y1='145' x2='190' y2='145' stroke='#333' stroke-width='1.5'/>
+  <!-- IC load -->
+  <text x='330' y='100' text-anchor='middle' class='t' font-size='9' fill='#888'>To IC</text>
+</svg>

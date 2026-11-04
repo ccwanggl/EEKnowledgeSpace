@@ -1,0 +1,119 @@
+/* 居中所有嵌入图像（包括 Excalidraw、PNG、SVG 等）
+   同时覆盖 Reading 模式和 Live Preview 模式
+*/
+
+/* ========== Reading 视图（阅读模式）已生效，保持不变 ========== */
+
+.markdown-preview-view .internal-embed {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.markdown-preview-view .internal-embed img,
+.markdown-preview-view .internal-embed svg {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.markdown-preview-view img,
+.markdown-preview-view svg {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* ========== Live Preview 编辑模式（重点修复） ========== */
+
+/* 所有嵌入块的父容器居中 */
+.markdown-source-view .cm-embed-block {
+    text-align: center !important;
+}
+
+.markdown-source-view .cm-embed-block img,
+.markdown-source-view .cm-embed-block svg,
+.markdown-source-view .cm-embed-block canvas {
+    display: inline-block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* image-embed 专用 */
+.markdown-source-view .image-embed {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.markdown-source-view .image-embed img,
+.markdown-source-view .image-embed svg,
+.markdown-source-view .image-embed canvas {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* internal-embed 专用 */
+.markdown-source-view .internal-embed {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.markdown-source-view .internal-embed img,
+.markdown-source-view .internal-embed svg,
+.markdown-source-view .internal-embed canvas {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* CodeMirror 内容层全局兜底 */
+.markdown-source-view .cm-content img,
+.markdown-source-view .cm-content svg,
+.markdown-source-view .cm-content canvas,
+.markdown-source-view .cm-sizer img,
+.markdown-source-view .cm-sizer svg,
+.markdown-source-view .cm-sizer canvas {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* 直接子元素兜底 */
+.markdown-source-view img,
+.markdown-source-view svg,
+.markdown-source-view canvas {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* ========== 通用渲染区域（同时覆盖两种模式） ========== */
+
+.markdown-rendered img,
+.markdown-rendered svg,
+.markdown-rendered canvas,
+.view-content img,
+.view-content svg,
+.view-content canvas {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* ========== Excalidraw 特定覆盖 ========== */
+
+.excalidraw-svg,
+.excalidraw-image,
+.excalidraw-embed img,
+.excalidraw-embed svg,
+.excalidraw-embed canvas,
+.excalidraw-view img,
+.excalidraw-view svg,
+.excalidraw-view canvas {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}

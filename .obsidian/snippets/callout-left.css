@@ -1,0 +1,16 @@
+/* 本章定位（[!abstract]）callout 排版优化 —— 针对编辑（实时预览）模式
+   1. 行距 1.8，段落间再留 0.25em，解决多行挤在一起的问题
+   2. text-align: justify + inter-ideograph，中英文混排两端对齐
+   3. 悬挂缩进 5em：长行换行后与“前置知识：”等标签后的正文对齐 */
+
+.markdown-source-view .callout[data-callout="abstract"] .callout-content {
+  line-height: 1.8;
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
+.markdown-source-view .callout[data-callout="abstract"] .callout-content p {
+  margin: 0.25em 0;
+  padding-left: 5em;
+  text-indent: -5em;
+}

@@ -1,0 +1,9 @@
+{
+  "enabledCssSnippets": [
+    "center-excalidraw",
+    "wide-reading-view",
+    "callout-left"
+  ],
+  "showRibbon": true,
+  "cssTheme": "Blue Topaz"
+}

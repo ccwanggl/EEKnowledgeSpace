@@ -1,0 +1,692 @@
+[
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\00-Index\\00-README.md",
+    "issues": [
+      {
+        "line": 500,
+        "description": "子图标题包含特殊字符: [\"基础\"]",
+        "fix": "将子图标题用引号包裹: [\"基础\"] → \"[\"基础\"]\""
+      },
+      {
+        "line": 506,
+        "description": "子图标题包含特殊字符: [\"模拟\"]",
+        "fix": "将子图标题用引号包裹: [\"模拟\"] → \"[\"模拟\"]\""
+      },
+      {
+        "line": 512,
+        "description": "子图标题包含特殊字符: [\"数字\"]",
+        "fix": "将子图标题用引号包裹: [\"数字\"] → \"[\"数字\"]\""
+      },
+      {
+        "line": 518,
+        "description": "子图标题包含特殊字符: [\"系统\"]",
+        "fix": "将子图标题用引号包裹: [\"系统\"] → \"[\"系统\"]\""
+      },
+      {
+        "line": 953,
+        "description": "子图标题包含特殊字符: [\"应用层\"]",
+        "fix": "将子图标题用引号包裹: [\"应用层\"] → \"[\"应用层\"]\""
+      },
+      {
+        "line": 958,
+        "description": "子图标题包含特殊字符: [\"操作系统层\"]",
+        "fix": "将子图标题用引号包裹: [\"操作系统层\"] → \"[\"操作系统层\"]\""
+      },
+      {
+        "line": 963,
+        "description": "子图标题包含特殊字符: [\"硬件层\"]",
+        "fix": "将子图标题用引号包裹: [\"硬件层\"] → \"[\"硬件层\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\01-Foundations\\05-信号与系统\\000-信号与系统.md",
+    "issues": [
+      {
+        "line": 87,
+        "description": "子图标题包含特殊字符: [\"时域\"]",
+        "fix": "将子图标题用引号包裹: [\"时域\"] → \"[\"时域\"]\""
+      },
+      {
+        "line": 93,
+        "description": "子图标题包含特殊字符: [\"频域\"]",
+        "fix": "将子图标题用引号包裹: [\"频域\"] → \"[\"频域\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\01-Foundations\\08-嵌入式C编程\\000-嵌入式C编程.md",
+    "issues": [
+      {
+        "line": 32,
+        "description": "子图标题包含特殊字符: [\"Flash / ROM\"]",
+        "fix": "将子图标题用引号包裹: [\"Flash / ROM\"] → \"[\"Flash / ROM\"]\""
+      },
+      {
+        "line": 37,
+        "description": "子图标题包含特殊字符: [\"RAM\"]",
+        "fix": "将子图标题用引号包裹: [\"RAM\"] → \"[\"RAM\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\02-Analog-Electronics\\03-滤波器设计\\008-可视化滤波器类型与设计流程.md",
+    "issues": [
+      {
+        "line": 11,
+        "description": "子图标题包含特殊字符: [\"低通 LPF\"]",
+        "fix": "将子图标题用引号包裹: [\"低通 LPF\"] → \"[\"低通 LPF\"]\""
+      },
+      {
+        "line": 16,
+        "description": "子图标题包含特殊字符: [\"高通 HPF\"]",
+        "fix": "将子图标题用引号包裹: [\"高通 HPF\"] → \"[\"高通 HPF\"]\""
+      },
+      {
+        "line": 21,
+        "description": "子图标题包含特殊字符: [\"带通 BPF\"]",
+        "fix": "将子图标题用引号包裹: [\"带通 BPF\"] → \"[\"带通 BPF\"]\""
+      },
+      {
+        "line": 26,
+        "description": "子图标题包含特殊字符: [\"带阻 BSF\"]",
+        "fix": "将子图标题用引号包裹: [\"带阻 BSF\"] → \"[\"带阻 BSF\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\03-Digital-Electronics\\03-时序逻辑与状态机\\008-可视化状态机与时序.md",
+    "issues": [
+      {
+        "line": 11,
+        "description": "子图标题包含特殊字符: [\"Moore 型\"]",
+        "fix": "将子图标题用引号包裹: [\"Moore 型\"] → \"[\"Moore 型\"]\""
+      },
+      {
+        "line": 17,
+        "description": "子图标题包含特殊字符: [\"Mealy 型\"]",
+        "fix": "将子图标题用引号包裹: [\"Mealy 型\"] → \"[\"Mealy 型\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\03-Digital-Electronics\\04-FPGA入门\\007-可视化FPGA开发流程.md",
+    "issues": [
+      {
+        "line": 26,
+        "description": "子图标题包含特殊字符: [\"MCU\"]",
+        "fix": "将子图标题用引号包裹: [\"MCU\"] → \"[\"MCU\"]\""
+      },
+      {
+        "line": 32,
+        "description": "子图标题包含特殊字符: [\"FPGA\"]",
+        "fix": "将子图标题用引号包裹: [\"FPGA\"] → \"[\"FPGA\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\04-Microcontrollers\\05-RISC-V与国产MCU\\007-可视化RISCV生态.md",
+    "issues": [
+      {
+        "line": 11,
+        "description": "子图标题包含特殊字符: [\"ARM\"]",
+        "fix": "将子图标题用引号包裹: [\"ARM\"] → \"[\"ARM\"]\""
+      },
+      {
+        "line": 17,
+        "description": "子图标题包含特殊字符: [\"RISC-V\"]",
+        "fix": "将子图标题用引号包裹: [\"RISC-V\"] → \"[\"RISC-V\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\04-Microcontrollers\\07-MCU启动与链接脚本\\009-可视化启动流程与内存布局.md",
+    "issues": [
+      {
+        "line": 28,
+        "description": "子图标题包含特殊字符: [\"Flash\"]",
+        "fix": "将子图标题用引号包裹: [\"Flash\"] → \"[\"Flash\"]\""
+      },
+      {
+        "line": 35,
+        "description": "子图标题包含特殊字符: [\"RAM\"]",
+        "fix": "将子图标题用引号包裹: [\"RAM\"] → \"[\"RAM\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\05-Communication\\02-I2C-SPI-UART\\007-可视化协议结构与时序.md",
+    "issues": [
+      {
+        "line": 11,
+        "description": "子图标题包含特殊字符: [\"UART 点对点\"]",
+        "fix": "将子图标题用引号包裹: [\"UART 点对点\"] → \"[\"UART 点对点\"]\""
+      },
+      {
+        "line": 16,
+        "description": "子图标题包含特殊字符: [\"SPI 一主多从\"]",
+        "fix": "将子图标题用引号包裹: [\"SPI 一主多从\"] → \"[\"SPI 一主多从\"]\""
+      },
+      {
+        "line": 25,
+        "description": "子图标题包含特殊字符: [\"I2C 多主多从总线\"]",
+        "fix": "将子图标题用引号包裹: [\"I2C 多主多从总线\"] → \"[\"I2C 多主多从总线\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\05-Communication\\06-以太网与TCP-IP\\002-TCPIP协议栈嵌入式简化.md",
+    "issues": [
+      {
+        "line": 17,
+        "description": "子图标题包含特殊字符: [\"应用层\"]",
+        "fix": "将子图标题用引号包裹: [\"应用层\"] → \"[\"应用层\"]\""
+      },
+      {
+        "line": 22,
+        "description": "子图标题包含特殊字符: [\"传输层\"]",
+        "fix": "将子图标题用引号包裹: [\"传输层\"] → \"[\"传输层\"]\""
+      },
+      {
+        "line": 26,
+        "description": "子图标题包含特殊字符: [\"网络层\"]",
+        "fix": "将子图标题用引号包裹: [\"网络层\"] → \"[\"网络层\"]\""
+      },
+      {
+        "line": 29,
+        "description": "子图标题包含特殊字符: [\"链路层\"]",
+        "fix": "将子图标题用引号包裹: [\"链路层\"] → \"[\"链路层\"]\""
+      },
+      {
+        "line": 32,
+        "description": "子图标题包含特殊字符: [\"物理层\"]",
+        "fix": "将子图标题用引号包裹: [\"物理层\"] → \"[\"物理层\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\05-Communication\\06-以太网与TCP-IP\\003-lwIPLightweightIP.md",
+    "issues": [
+      {
+        "line": 22,
+        "description": "子图标题包含特殊字符: [\"应用代码\"]",
+        "fix": "将子图标题用引号包裹: [\"应用代码\"] → \"[\"应用代码\"]\""
+      },
+      {
+        "line": 26,
+        "description": "子图标题包含特殊字符: [\"lwIP API\"]",
+        "fix": "将子图标题用引号包裹: [\"lwIP API\"] → \"[\"lwIP API\"]\""
+      },
+      {
+        "line": 31,
+        "description": "子图标题包含特殊字符: [\"lwIP 核心\"]",
+        "fix": "将子图标题用引号包裹: [\"lwIP 核心\"] → \"[\"lwIP 核心\"]\""
+      },
+      {
+        "line": 36,
+        "description": "子图标题包含特殊字符: [\"驱动层\"]",
+        "fix": "将子图标题用引号包裹: [\"驱动层\"] → \"[\"驱动层\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\06-PCB-Design\\03-PCB层叠与阻抗设计\\008-可视化PCB叠层与回流.md",
+    "issues": [
+      {
+        "line": 11,
+        "description": "子图标题包含特殊字符: [\"四层板叠层（由上到下）\"]",
+        "fix": "将子图标题用引号包裹: [\"四层板叠层（由上到下）\"] → \"[\"四层板叠层（由上到下）\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\07-Power-Management\\01-电源管理基础\\007-可视化电源类型与选择.md",
+    "issues": [
+      {
+        "line": 11,
+        "description": "子图标题包含特殊字符: [\"LDO / 线性稳压\"]",
+        "fix": "将子图标题用引号包裹: [\"LDO / 线性稳压\"] → \"[\"LDO / 线性稳压\"]\""
+      },
+      {
+        "line": 16,
+        "description": "子图标题包含特殊字符: [\"DC-DC / 开关稳压\"]",
+        "fix": "将子图标题用引号包裹: [\"DC-DC / 开关稳压\"] → \"[\"DC-DC / 开关稳压\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\07-Power-Management\\02-DC-DC转换器\\008-可视化DCDC拓扑与工作流程.md",
+    "issues": [
+      {
+        "line": 11,
+        "description": "子图标题包含特殊字符: [\"Buck 降压\"]",
+        "fix": "将子图标题用引号包裹: [\"Buck 降压\"] → \"[\"Buck 降压\"]\""
+      },
+      {
+        "line": 15,
+        "description": "子图标题包含特殊字符: [\"Boost 升压\"]",
+        "fix": "将子图标题用引号包裹: [\"Boost 升压\"] → \"[\"Boost 升压\"]\""
+      },
+      {
+        "line": 19,
+        "description": "子图标题包含特殊字符: [\"Buck-Boost 升降压\"]",
+        "fix": "将子图标题用引号包裹: [\"Buck-Boost 升降压\"] → \"[\"Buck-Boost 升降压\"]\""
+      },
+      {
+        "line": 32,
+        "description": "子图标题包含特殊字符: [\"开关导通\"]",
+        "fix": "将子图标题用引号包裹: [\"开关导通\"] → \"[\"开关导通\"]\""
+      },
+      {
+        "line": 40,
+        "description": "子图标题包含特殊字符: [\"开关关断\"]",
+        "fix": "将子图标题用引号包裹: [\"开关关断\"] → \"[\"开关关断\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\08-Sensors-Actuators\\02-执行器控制\\001-继电器与接触器.md",
+    "issues": [
+      {
+        "line": 26,
+        "description": "子图标题包含特殊字符: [\"MCU\"]",
+        "fix": "将子图标题用引号包裹: [\"MCU\"] → \"[\"MCU\"]\""
+      },
+      {
+        "line": 29,
+        "description": "子图标题包含特殊字符: [\"驱动级\"]",
+        "fix": "将子图标题用引号包裹: [\"驱动级\"] → \"[\"驱动级\"]\""
+      },
+      {
+        "line": 33,
+        "description": "子图标题包含特殊字符: [\"负载\"]",
+        "fix": "将子图标题用引号包裹: [\"负载\"] → \"[\"负载\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\09-Debugging-Tools\\05-JTAG与SWD调试\\008-可视化JTAGvsSWD.md",
+    "issues": [
+      {
+        "line": 11,
+        "description": "子图标题包含特殊字符: [\"JTAG\"]",
+        "fix": "将子图标题用引号包裹: [\"JTAG\"] → \"[\"JTAG\"]\""
+      },
+      {
+        "line": 19,
+        "description": "子图标题包含特殊字符: [\"SWD\"]",
+        "fix": "将子图标题用引号包裹: [\"SWD\"] → \"[\"SWD\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\10-RTOS与系统\\01-RTOS基础\\007-可视化RTOS架构.md",
+    "issues": [
+      {
+        "line": 11,
+        "description": "子图标题包含特殊字符: [\"应用层\"]",
+        "fix": "将子图标题用引号包裹: [\"应用层\"] → \"[\"应用层\"]\""
+      },
+      {
+        "line": 17,
+        "description": "子图标题包含特殊字符: [\"RTOS 内核\"]",
+        "fix": "将子图标题用引号包裹: [\"RTOS 内核\"] → \"[\"RTOS 内核\"]\""
+      },
+      {
+        "line": 24,
+        "description": "子图标题包含特殊字符: [\"硬件抽象\"]",
+        "fix": "将子图标题用引号包裹: [\"硬件抽象\"] → \"[\"硬件抽象\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\01-电机数学模型与坐标变换\\004-PMSM电压方程与磁链模型.md",
+    "issues": [
+      {
+        "line": 17,
+        "description": "子图标题包含特殊字符: [\"d 轴电压 ud\"]",
+        "fix": "将子图标题用引号包裹: [\"d 轴电压 ud\"] → \"[\"d 轴电压 ud\"]\""
+      },
+      {
+        "line": 22,
+        "description": "子图标题包含特殊字符: [\"q 轴电压 uq\"]",
+        "fix": "将子图标题用引号包裹: [\"q 轴电压 uq\"] → \"[\"q 轴电压 uq\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\01-电机数学模型与坐标变换\\005-转矩方程与机电能量转换.md",
+    "issues": [
+      {
+        "line": 17,
+        "description": "子图标题包含特殊字符: [\"电磁转矩组成\"]",
+        "fix": "将子图标题用引号包裹: [\"电磁转矩组成\"] → \"[\"电磁转矩组成\"]\""
+      },
+      {
+        "line": 21,
+        "description": "子图标题包含特殊字符: [\"电流分配策略\"]",
+        "fix": "将子图标题用引号包裹: [\"电流分配策略\"] → \"[\"电流分配策略\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\02-FOC控制理论\\001-解耦思想与Id=0控制.md",
+    "issues": [
+      {
+        "line": 103,
+        "description": "子图标题包含特殊字符: [\"未解耦: dq轴相互影响\"]",
+        "fix": "将子图标题用引号包裹: [\"未解耦: dq轴相互影响\"] → \"[\"未解耦: dq轴相互影响\"]\""
+      },
+      {
+        "line": 110,
+        "description": "子图标题包含特殊字符: [\"解耦后: 各自独立控制\"]",
+        "fix": "将子图标题用引号包裹: [\"解耦后: 各自独立控制\"] → \"[\"解耦后: 各自独立控制\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\02-FOC控制理论\\006-弱磁控制与电压极限.md",
+    "issues": [
+      {
+        "line": 184,
+        "description": "子图标题包含特殊字符: [\"恒转矩区\"]",
+        "fix": "将子图标题用引号包裹: [\"恒转矩区\"] → \"[\"恒转矩区\"]\""
+      },
+      {
+        "line": 189,
+        "description": "子图标题包含特殊字符: [\"弱磁区\"]",
+        "fix": "将子图标题用引号包裹: [\"弱磁区\"] → \"[\"弱磁区\"]\""
+      },
+      {
+        "line": 194,
+        "description": "子图标题包含特殊字符: [\"MTPV区\"]",
+        "fix": "将子图标题用引号包裹: [\"MTPV区\"] → \"[\"MTPV区\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\08-仿真与验证\\001-MATLAB-Simulink模型搭建.md",
+    "issues": [
+      {
+        "line": 133,
+        "description": "包含错误的 <br> 标签格式: A[速度环PI] --> B[Id* 给定<br>Id=0]",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\08-仿真与验证\\002-PLECS热仿真与损耗分析.md",
+    "issues": [
+      {
+        "line": 132,
+        "description": "子图标题包含特殊字符: [物理层叠结构]",
+        "fix": "将子图标题用引号包裹: [物理层叠结构] → \"[物理层叠结构]\""
+      },
+      {
+        "line": 139,
+        "description": "子图标题包含特殊字符: [数学等效]",
+        "fix": "将子图标题用引号包裹: [数学等效] → \"[数学等效]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\08-仿真与验证\\003-离线参数辨识仿真.md",
+    "issues": [
+      {
+        "line": 177,
+        "description": "包含错误的 <br> 标签格式: D --> E[参数估计<br>R̂s, L̂d, L̂q, ψ̂f]",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\08-仿真与验证\\004-硬件在环HIL测试.md",
+    "issues": [
+      {
+        "line": 123,
+        "description": "子图标题包含特殊字符: [控制器实物 - 待测设备]",
+        "fix": "将子图标题用引号包裹: [控制器实物 - 待测设备] → \"[控制器实物 - 待测设备]\""
+      },
+      {
+        "line": 130,
+        "description": "子图标题包含特殊字符: [HIL 实时仿真器]",
+        "fix": "将子图标题用引号包裹: [HIL 实时仿真器] → \"[HIL 实时仿真器]\""
+      },
+      {
+        "line": 131,
+        "description": "包含错误的 <br> 标签格式: FPGA[FPGA I/O<br>捕获PWM/输出ADC]",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      },
+      {
+        "line": 132,
+        "description": "包含错误的 <br> 标签格式: CPU[CPU 电机模型<br>1μs~10μs步长]",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\09-工程应用\\001-伺服驱动器设计.md",
+    "issues": [
+      {
+        "line": 104,
+        "description": "子图标题包含特殊字符: [\"位置环\"]",
+        "fix": "将子图标题用引号包裹: [\"位置环\"] → \"[\"位置环\"]\""
+      },
+      {
+        "line": 105,
+        "description": "包含错误的 <br> 标签格式: P_ctrl[\"P控制器<br>Kp_p\"]",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      },
+      {
+        "line": 107,
+        "description": "子图标题包含特殊字符: [\"速度环\"]",
+        "fix": "将子图标题用引号包裹: [\"速度环\"] → \"[\"速度环\"]\""
+      },
+      {
+        "line": 108,
+        "description": "包含错误的 <br> 标签格式: PI_v[\"PI控制器<br>Kp_ω + Ki_ω/s\"]",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      },
+      {
+        "line": 110,
+        "description": "子图标题包含特殊字符: [\"电流环\"]",
+        "fix": "将子图标题用引号包裹: [\"电流环\"] → \"[\"电流环\"]\""
+      },
+      {
+        "line": 122,
+        "description": "包含错误的 <br> 标签格式: Ref[\"位置指令<br>θ*\"] --> P_ctrl",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\09-工程应用\\002-机器人关节模组.md",
+    "issues": [
+      {
+        "line": 214,
+        "description": "包含错误的 <br> 标签格式: MCU[\"FOC MCU<br>PWM正常\"] --> Gate[\"Gate Driver<br>UVLO/OCP\"]",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      },
+      {
+        "line": 215,
+        "description": "包含错误的 <br> 标签格式: Gate --> MOSFET[\"三相桥臂<br>STO输入\"]",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      },
+      {
+        "line": 216,
+        "description": "包含错误的 <br> 标签格式: Safety_PLC[\"Safety PLC<br>STO信号\"] -->|\"低电平有效\"| MOSFET",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\09-工程应用\\003-电动车电驱系统.md",
+    "issues": [
+      {
+        "line": 159,
+        "description": "包含错误的 <br> 标签格式: AC[\"电网 AC\"] --> PFC[\"PFC Boost<br>功率因数校正\"] --> DC_Bus[\"高压直流母线<br>400V/800V\"]",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      },
+      {
+        "line": 160,
+        "description": "包含错误的 <br> 标签格式: DC_Bus --> Inverter[\"逆变器<br>FOC控制\"] --> Motor[\"PMSM电机\"]",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\09-工程应用\\004-无人机电调ESC.md",
+    "issues": [
+      {
+        "line": 28,
+        "description": "子图标题包含特殊字符: [\"25 µs 控制周期\"]",
+        "fix": "将子图标题用引号包裹: [\"25 µs 控制周期\"] → \"[\"25 µs 控制周期\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\09-工程应用\\005-工业变频器.md",
+    "issues": [
+      {
+        "line": 47,
+        "description": "包含错误的 <br> 标签格式: A[\"V/Hz 标量控制<br>开环/简单滑差补偿\"] --> B[\"滑差频率控制<br>闭环速度，无电流环\"]",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      },
+      {
+        "line": 48,
+        "description": "包含错误的 <br> 标签格式: B --> C[\"间接 FOC<br>转速+电流双环，需电机参数\"]",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      },
+      {
+        "line": 49,
+        "description": "包含错误的 <br> 标签格式: C --> D[\"直接 FOC<br>磁链观测器，无需速度传感器\"]",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      },
+      {
+        "line": 50,
+        "description": "包含错误的 <br> 标签格式: D --> E[\"无传感器 FOC<br>SMO/EKF/HFI，全速域覆盖\"]",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\14-FOC-电机控制\\10-资源与扩展\\004-工具链与调试环境.md",
+    "issues": [
+      {
+        "line": 110,
+        "description": "子图标题包含特殊字符: [\"IDE / 编译环境\"]",
+        "fix": "将子图标题用引号包裹: [\"IDE / 编译环境\"] → \"[\"IDE / 编译环境\"]\""
+      },
+      {
+        "line": 116,
+        "description": "子图标题包含特殊字符: [\"调试器\"]",
+        "fix": "将子图标题用引号包裹: [\"调试器\"] → \"[\"调试器\"]\""
+      },
+      {
+        "line": 122,
+        "description": "子图标题包含特殊字符: [\"示波器\"]",
+        "fix": "将子图标题用引号包裹: [\"示波器\"] → \"[\"示波器\"]\""
+      },
+      {
+        "line": 128,
+        "description": "子图标题包含特殊字符: [\"逻辑分析仪\"]",
+        "fix": "将子图标题用引号包裹: [\"逻辑分析仪\"] → \"[\"逻辑分析仪\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\15-双控（控制理论与控制工程）\\04-PID与工业控制器设计\\001-PID的物理直觉与频域解释.md",
+    "issues": [
+      {
+        "line": 35,
+        "description": "子图标题包含特殊字符: [PID Controller C(s)]",
+        "fix": "将子图标题用引号包裹: [PID Controller C(s)] → \"[PID Controller C(s)]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\15-双控（控制理论与控制工程）\\04-PID与工业控制器设计\\003-抗积分饱和与微分先行.md",
+    "issues": [
+      {
+        "line": 24,
+        "description": "子图标题包含特殊字符: [\"正常状态\"]",
+        "fix": "将子图标题用引号包裹: [\"正常状态\"] → \"[\"正常状态\"]\""
+      },
+      {
+        "line": 28,
+        "description": "子图标题包含特殊字符: [\"饱和状态\"]",
+        "fix": "将子图标题用引号包裹: [\"饱和状态\"] → \"[\"饱和状态\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\15-双控（控制理论与控制工程）\\04-PID与工业控制器设计\\005-增益调度与自适应PID.md",
+    "issues": [
+      {
+        "line": 30,
+        "description": "子图标题包含特殊字符: [\"不同工作点的线性化模型\"]",
+        "fix": "将子图标题用引号包裹: [\"不同工作点的线性化模型\"] → \"[\"不同工作点的线性化模型\"]\""
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\15-双控（控制理论与控制工程）\\07-MPC模型预测控制\\003-约束处理与QP求解器.md",
+    "issues": [
+      {
+        "line": 36,
+        "description": "包含错误的 <br> 标签格式: C --> D[QP标准形式<br>min 0.5*U'*H*U + f'*U]",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      },
+      {
+        "line": 37,
+        "description": "包含错误的 <br> 标签格式: D --> E[求解器<br>IPOPT / qpOASES / OSQP]",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      },
+      {
+        "line": 59,
+        "description": "包含错误的 <br> 标签格式: B --> B1[执行器饱和<br>u_min <= u <= u_max]",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      },
+      {
+        "line": 60,
+        "description": "包含错误的 <br> 标签格式: C --> C1[安全限制<br>x_min <= x <= x_max]",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      },
+      {
+        "line": 61,
+        "description": "包含错误的 <br> 标签格式: D --> D1[性能规格<br>y_min <= y <= y_max]",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\15-双控（控制理论与控制工程）\\07-MPC模型预测控制\\004-显式MPC与实时性.md",
+    "issues": [
+      {
+        "line": 42,
+        "description": "包含错误的 <br> 标签格式: A2 --> A3[提取区域<br>A_region*x <= b_region]",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      },
+      {
+        "line": 43,
+        "description": "包含错误的 <br> 标签格式: A3 --> A4[存储查表<br>(K_i, k_i)]",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      }
+    ]
+  },
+  {
+    "file": "E:\\EEDevSpace\\EEKnowledgeSpace\\15-双控（控制理论与控制工程）\\07-MPC模型预测控制\\005-MPC应用案例.md",
+    "issues": [
+      {
+        "line": 16,
+        "description": "包含错误的 <br> 标签格式: Est[状态估计器<br>x=[s,s_dot,theta,theta_dot]] --> MPC",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      },
+      {
+        "line": 17,
+        "description": "包含错误的 <br> 标签格式: MPC --> Sat[执行器饱和<br>|u|<=5N]",
+        "fix": "将 <br> 或 <br > 改为 <br/>"
+      }
+    ]
+  }
+]

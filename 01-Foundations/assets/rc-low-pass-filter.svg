@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">一阶 RC 低通滤波器</title>
+  <desc id="desc">输入经串联电阻到输出节点，电容从输出节点连接到地。</desc>
+  <rect width="720" height="360" fill="#fffdf8"/>
+  <g stroke="#172033" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="75" y1="145" x2="180" y2="145"/>
+    <polyline points="180,145 200,115 230,175 260,115 290,175 320,115 340,145"/>
+    <line x1="340" y1="145" x2="555" y2="145"/>
+    <circle cx="430" cy="145" r="7" fill="#172033"/>
+    <line x1="430" y1="145" x2="430" y2="205"/>
+    <line x1="390" y1="205" x2="470" y2="205"/>
+    <line x1="390" y1="225" x2="470" y2="225"/>
+    <line x1="430" y1="225" x2="430" y2="270"/>
+    <line x1="400" y1="270" x2="460" y2="270"/>
+    <line x1="410" y1="285" x2="450" y2="285"/>
+    <line x1="420" y1="300" x2="440" y2="300"/>
+  </g>
+  <g font-family="Microsoft YaHei, sans-serif" fill="#172033">
+    <text x="360" y="45" text-anchor="middle" font-size="26" font-weight="700">一阶 RC 低通滤波器</text>
+    <text x="75" y="125" text-anchor="middle" font-size="21">Vᵢₙ</text>
+    <text x="260" y="100" text-anchor="middle" font-size="23" font-weight="700">R</text>
+    <text x="490" y="205" font-size="23" font-weight="700" fill="#c2410c">C</text>
+    <text x="555" y="125" text-anchor="middle" font-size="21" fill="#c2410c">Vₒᵤₜ</text>
+    <text x="360" y="338" text-anchor="middle" font-size="22">f꜀ = 1 / (2πRC)</text>
+  </g>
+</svg>

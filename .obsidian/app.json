@@ -1,0 +1,9 @@
+{
+  "enabledSnippets": [
+    "wide-reading-view"
+  ],
+  "promptDelete": false,
+  "readableLineLength": false,
+  "vimMode": false,
+  "alwaysUpdateLinks": true
+}

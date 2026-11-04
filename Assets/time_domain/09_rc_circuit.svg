@@ -1,0 +1,42 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 320' width='240' height='320'>
+  <defs>
+    <style>.wire{stroke:#333;stroke-width:2;fill:none}.label{font-family:sans-serif;font-size:16;fill:#333;text-anchor:middle}</style>
+  </defs>
+  <!-- top wire -->
+  <line class='wire' x1='40' y1='40' x2='200' y2='40'/>
+  <!-- voltage source -->
+  <circle cx='40' cy='40' r='18' stroke='#333' stroke-width='2' fill='#fff'/>
+  <text x='40' y='35' text-anchor='middle' font-size='14' font-family='sans-serif'>+</text>
+  <text x='40' y='50' text-anchor='middle' font-size='14' font-family='sans-serif'>Vs</text>
+  <!-- wire to R -->
+  <line class='wire' x1='58' y1='40' x2='80' y2='40'/>
+  <!-- resistor R -->
+  <rect x='80' y='22' width='40' height='36' fill='#f5f5f5' stroke='#333' stroke-width='2'/>
+  <text x='100' y='46' text-anchor='middle' font-size='16' font-family='sans-serif'>R</text>
+  <!-- wire R to C -->
+  <line class='wire' x1='120' y1='40' x2='140' y2='40'/>
+  <!-- capacitor C -->
+  <line x1='140' y1='22' x2='180' y2='22' stroke='#333' stroke-width='3'/>
+  <line x1='140' y1='40' x2='180' y2='40' stroke='#333' stroke-width='3'/>
+  <text x='160' y='62' text-anchor='middle' font-size='18' font-family='sans-serif' fill='#E65100' font-weight='bold'>C</text>
+  <!-- wire after C -->
+  <line class='wire' x1='180' y1='40' x2='200' y2='40'/>
+  <!-- bottom wire -->
+  <line class='wire' x1='40' y1='120' x2='200' y2='120'/>
+  <!-- vertical wires -->
+  <line class='wire' x1='40' y1='58' x2='40' y2='120'/>
+  <line class='wire' x1='200' y1='40' x2='200' y2='120'/>
+  <!-- vC label -->
+  <text x='200' y='80' text-anchor='start' font-size='16' font-family='sans-serif' fill='#E65100' font-weight='bold'>vC(t)</text>
+  <!-- + - -->
+  <text x='180' y='85' text-anchor='middle' font-size='12' font-family='sans-serif' fill='#888'>+</text>
+  <text x='180' y='112' text-anchor='middle' font-size='12' font-family='sans-serif' fill='#888'>-</text>
+  <!-- i arrow -->
+  <line x1='20' y1='80' x2='20' y2='60' stroke='#2196F3' stroke-width='2'/>
+  <polygon points='16,65 20,55 24,65' fill='#2196F3'/>
+  <text x='8' y='75' font-size='15' font-family='sans-serif' fill='#1565C0' font-weight='bold'>i(t)</text>
+  <!-- ground -->
+  <line x1='100' y1='120' x2='140' y2='120' stroke='#333' stroke-width='2'/>
+  <line x1='110' y1='128' x2='130' y2='128' stroke='#333' stroke-width='1.5'/>
+  <line x1='115' y1='136' x2='125' y2='136' stroke='#333' stroke-width='1.5'/>
+</svg>

@@ -1,0 +1,41 @@
+# ── OS ──
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ── Obsidian ──
+**/.obsidian/workspace*.json
+**/.obsidian/hotkeys.json
+.trash/
+
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# ── Codegraph ──
+.codegraph/
+
+# ── IDE ──
+.vscode/
+.idea/
+
+# ── Spec workflow ──
+.spec-workflow/
+
+# ── Temp ──
+*.tmp
+*.log
+
+.omo/
+
+# Playwright MCP artifacts
+.playwright-mcp/
+
+# ── Agent collaboration ──
+.agents/
+.claude/
+.copilot/
+.opencode/
+copilot/
