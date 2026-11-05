@@ -1,0 +1,934 @@
+{
+ "schema_version": 2,
+ "diagram_type": "workflow",
+ "meta": {
+  "title": "信号与系统主线与章节职责",
+  "locale": "zh-CN",
+  "quality_profile": "showcase",
+  "viewBox": [
+   1700,
+   2200
+  ]
+ },
+ "lanes": [
+  {
+   "id": "ch01",
+   "label": "001"
+  },
+  {
+   "id": "ch02",
+   "label": "002"
+  },
+  {
+   "id": "ch03",
+   "label": "003"
+  },
+  {
+   "id": "ch04",
+   "label": "004"
+  },
+  {
+   "id": "ch05",
+   "label": "005"
+  },
+  {
+   "id": "ch06",
+   "label": "006"
+  },
+  {
+   "id": "ch07",
+   "label": "007"
+  },
+  {
+   "id": "ch08",
+   "label": "008"
+  },
+  {
+   "id": "ch09",
+   "label": "009"
+  },
+  {
+   "id": "ch10",
+   "label": "010"
+  },
+  {
+   "id": "ch11",
+   "label": "011"
+  },
+  {
+   "id": "ch12",
+   "label": "012"
+  },
+  {
+   "id": "ch13",
+   "label": "013"
+  },
+  {
+   "id": "ch14",
+   "label": "014"
+  },
+  {
+   "id": "ch15",
+   "label": "015"
+  },
+  {
+   "id": "ch16",
+   "label": "016"
+  }
+ ],
+ "mainPath": [
+  "n01",
+  "n02",
+  "n03",
+  "n04",
+  "n05",
+  "n06",
+  "n07",
+  "n08",
+  "n09",
+  "n10",
+  "n11",
+  "n12",
+  "n13",
+  "n14",
+  "n15",
+  "n16"
+ ],
+ "nodes": [
+  {
+   "id": "n01",
+   "lane": "ch01",
+   "col": 0,
+   "type": "backend",
+   "label": "001 信号、系统与 LTI 基础",
+   "tag": "时域基础",
+   "width": 210
+  },
+  {
+   "id": "c01a",
+   "lane": "ch01",
+   "col": 1,
+   "type": "frontend",
+   "label": "信号分类与基本信号",
+   "width": 165
+  },
+  {
+   "id": "c01b",
+   "lane": "ch01",
+   "col": 2,
+   "type": "frontend",
+   "label": "系统六性质判定",
+   "width": 165
+  },
+  {
+   "id": "c01c",
+   "lane": "ch01",
+   "col": 3,
+   "type": "frontend",
+   "label": "LTI 为何重要",
+   "width": 165
+  },
+  {
+   "id": "n02",
+   "lane": "ch02",
+   "col": 0,
+   "type": "backend",
+   "label": "002 时域响应与微分方程",
+   "width": 210
+  },
+  {
+   "id": "c02a",
+   "lane": "ch02",
+   "col": 1,
+   "type": "frontend",
+   "label": "微分/差分方程建模",
+   "width": 165
+  },
+  {
+   "id": "c02b",
+   "lane": "ch02",
+   "col": 2,
+   "type": "frontend",
+   "label": "零输入与零状态分解",
+   "width": 165
+  },
+  {
+   "id": "c02c",
+   "lane": "ch02",
+   "col": 3,
+   "type": "frontend",
+   "label": "冲激响应与阶跃响应",
+   "width": 165
+  },
+  {
+   "id": "n03",
+   "lane": "ch03",
+   "col": 0,
+   "type": "backend",
+   "label": "003 卷积：从冲激响应到输出",
+   "width": 210
+  },
+  {
+   "id": "c03a",
+   "lane": "ch03",
+   "col": 1,
+   "type": "frontend",
+   "label": "四种直觉与图解四步",
+   "width": 165
+  },
+  {
+   "id": "c03b",
+   "lane": "ch03",
+   "col": 2,
+   "type": "frontend",
+   "label": "卷积性质与系统互联",
+   "width": 165
+  },
+  {
+   "id": "c03c",
+   "lane": "ch03",
+   "col": 3,
+   "type": "frontend",
+   "label": "离散与循环卷积",
+   "width": 165
+  },
+  {
+   "id": "n04",
+   "lane": "ch04",
+   "col": 0,
+   "type": "backend",
+   "label": "004 为什么需要变换域",
+   "tag": "变换域",
+   "width": 210
+  },
+  {
+   "id": "c04a",
+   "lane": "ch04",
+   "col": 1,
+   "type": "frontend",
+   "label": "本征函数思想",
+   "width": 165
+  },
+  {
+   "id": "c04b",
+   "lane": "ch04",
+   "col": 2,
+   "type": "frontend",
+   "label": "运算简化表",
+   "width": 165
+  },
+  {
+   "id": "c04c",
+   "lane": "ch04",
+   "col": 3,
+   "type": "frontend",
+   "label": "工具选择决策",
+   "width": 165
+  },
+  {
+   "id": "n05",
+   "lane": "ch05",
+   "col": 0,
+   "type": "backend",
+   "label": "005 频域表示与傅里叶级数",
+   "width": 210
+  },
+  {
+   "id": "c05a",
+   "lane": "ch05",
+   "col": 1,
+   "type": "frontend",
+   "label": "正交性与系数求解",
+   "width": 165
+  },
+  {
+   "id": "c05b",
+   "lane": "ch05",
+   "col": 2,
+   "type": "frontend",
+   "label": "离散线谱与包络",
+   "width": 165
+  },
+  {
+   "id": "c05c",
+   "lane": "ch05",
+   "col": 3,
+   "type": "frontend",
+   "label": "典型周期信号频谱",
+   "width": 165
+  },
+  {
+   "id": "n06",
+   "lane": "ch06",
+   "col": 0,
+   "type": "backend",
+   "label": "006 傅里叶变换详解",
+   "width": 210
+  },
+  {
+   "id": "c06a",
+   "lane": "ch06",
+   "col": 1,
+   "type": "frontend",
+   "label": "性质与常见变换对",
+   "width": 165
+  },
+  {
+   "id": "c06b",
+   "lane": "ch06",
+   "col": 2,
+   "type": "frontend",
+   "label": "帕塞瓦尔与谱密度",
+   "width": 165
+  },
+  {
+   "id": "c06c",
+   "lane": "ch06",
+   "col": 3,
+   "type": "frontend",
+   "label": "周期信号的 FT · STFT",
+   "width": 165
+  },
+  {
+   "id": "n07",
+   "lane": "ch07",
+   "col": 0,
+   "type": "backend",
+   "label": "007 拉普拉斯变换与系统函数",
+   "width": 210
+  },
+  {
+   "id": "c07a",
+   "lane": "ch07",
+   "col": 1,
+   "type": "frontend",
+   "label": "ROC 与收敛域",
+   "width": 165
+  },
+  {
+   "id": "c07b",
+   "lane": "ch07",
+   "col": 2,
+   "type": "frontend",
+   "label": "系统函数 H(s)",
+   "width": 165
+  },
+  {
+   "id": "c07c",
+   "lane": "ch07",
+   "col": 3,
+   "type": "frontend",
+   "label": "部分分式逆变换",
+   "width": 165
+  },
+  {
+   "id": "n08",
+   "lane": "ch08",
+   "col": 0,
+   "type": "backend",
+   "label": "008 极点零点与系统稳定性",
+   "width": 210
+  },
+  {
+   "id": "c08a",
+   "lane": "ch08",
+   "col": 1,
+   "type": "frontend",
+   "label": "极点位置 ↔ 响应模态",
+   "width": 165
+  },
+  {
+   "id": "c08b",
+   "lane": "ch08",
+   "col": 2,
+   "type": "frontend",
+   "label": "BIBO 稳定性判据",
+   "width": 165
+  },
+  {
+   "id": "c08c",
+   "lane": "ch08",
+   "col": 3,
+   "type": "frontend",
+   "label": "ROC 与因果/稳定",
+   "width": 165
+  },
+  {
+   "id": "n09",
+   "lane": "ch09",
+   "col": 0,
+   "type": "backend",
+   "label": "009 频率响应与 Bode 图",
+   "width": 210
+  },
+  {
+   "id": "c09a",
+   "lane": "ch09",
+   "col": 1,
+   "type": "frontend",
+   "label": "一阶/二阶因子幅相",
+   "width": 165
+  },
+  {
+   "id": "c09b",
+   "lane": "ch09",
+   "col": 2,
+   "type": "frontend",
+   "label": "Bode 图绘制四步",
+   "width": 165
+  },
+  {
+   "id": "c09c",
+   "lane": "ch09",
+   "col": 3,
+   "type": "frontend",
+   "label": "带宽 · 滚降 · 裕度",
+   "width": 165
+  },
+  {
+   "id": "n10",
+   "lane": "ch10",
+   "col": 0,
+   "type": "backend",
+   "label": "010 采样、混叠与重建",
+   "tag": "离散世界",
+   "width": 210
+  },
+  {
+   "id": "c10a",
+   "lane": "ch10",
+   "col": 1,
+   "type": "frontend",
+   "label": "采样定理与混叠",
+   "width": 165
+  },
+  {
+   "id": "c10b",
+   "lane": "ch10",
+   "col": 2,
+   "type": "frontend",
+   "label": "抗混叠滤波器设计",
+   "width": 165
+  },
+  {
+   "id": "c10c",
+   "lane": "ch10",
+   "col": 3,
+   "type": "frontend",
+   "label": "S/H · 量化 · 重建",
+   "width": 165
+  },
+  {
+   "id": "n11",
+   "lane": "ch11",
+   "col": 0,
+   "type": "backend",
+   "label": "011 离散时间信号与系统",
+   "width": 210
+  },
+  {
+   "id": "c11a",
+   "lane": "ch11",
+   "col": 1,
+   "type": "frontend",
+   "label": "序列与递推求解",
+   "width": 165
+  },
+  {
+   "id": "c11b",
+   "lane": "ch11",
+   "col": 2,
+   "type": "frontend",
+   "label": "卷积和",
+   "width": 165
+  },
+  {
+   "id": "c11c",
+   "lane": "ch11",
+   "col": 3,
+   "type": "frontend",
+   "label": "FIR 与 IIR · 因果稳定",
+   "width": 165
+  },
+  {
+   "id": "n12",
+   "lane": "ch12",
+   "col": 0,
+   "type": "backend",
+   "label": "012 DTFT 与离散频率响应",
+   "width": 210
+  },
+  {
+   "id": "c12a",
+   "lane": "ch12",
+   "col": 1,
+   "type": "frontend",
+   "label": "数字频率的周期性",
+   "width": 165
+  },
+  {
+   "id": "c12b",
+   "lane": "ch12",
+   "col": 2,
+   "type": "frontend",
+   "label": "离散频率响应",
+   "width": 165
+  },
+  {
+   "id": "c12c",
+   "lane": "ch12",
+   "col": 3,
+   "type": "frontend",
+   "label": "DTFS",
+   "width": 165
+  },
+  {
+   "id": "n13",
+   "lane": "ch13",
+   "col": 0,
+   "type": "backend",
+   "label": "013 Z 变换与离散时间系统",
+   "width": 210
+  },
+  {
+   "id": "c13a",
+   "lane": "ch13",
+   "col": 1,
+   "type": "frontend",
+   "label": "ROC 与 H(z)",
+   "width": 165
+  },
+  {
+   "id": "c13b",
+   "lane": "ch13",
+   "col": 2,
+   "type": "frontend",
+   "label": "离散系统稳定性",
+   "width": 165
+  },
+  {
+   "id": "c13c",
+   "lane": "ch13",
+   "col": 3,
+   "type": "frontend",
+   "label": "s→z 离散化",
+   "width": 165
+  },
+  {
+   "id": "n14",
+   "lane": "ch14",
+   "col": 0,
+   "type": "backend",
+   "label": "014 DFT 与 FFT 频谱分析",
+   "width": 210
+  },
+  {
+   "id": "c14a",
+   "lane": "ch14",
+   "col": 1,
+   "type": "frontend",
+   "label": "泄漏 · 窗 · 补零",
+   "width": 165
+  },
+  {
+   "id": "c14b",
+   "lane": "ch14",
+   "col": 2,
+   "type": "frontend",
+   "label": "幅值标定",
+   "width": 165
+  },
+  {
+   "id": "c14c",
+   "lane": "ch14",
+   "col": 3,
+   "type": "frontend",
+   "label": "循环卷积",
+   "width": 165
+  },
+  {
+   "id": "n15",
+   "lane": "ch15",
+   "col": 0,
+   "type": "backend",
+   "label": "015 综合工程案例",
+   "tag": "综合收拢",
+   "width": 210
+  },
+  {
+   "id": "c15a",
+   "lane": "ch15",
+   "col": 1,
+   "type": "frontend",
+   "label": "传感器采集链",
+   "width": 165
+  },
+  {
+   "id": "c15b",
+   "lane": "ch15",
+   "col": 2,
+   "type": "frontend",
+   "label": "FOC 电流环离散化",
+   "width": 165
+  },
+  {
+   "id": "c15c",
+   "lane": "ch15",
+   "col": 3,
+   "type": "frontend",
+   "label": "PWM 频谱定位",
+   "width": 165
+  },
+  {
+   "id": "n16",
+   "lane": "ch16",
+   "col": 0,
+   "type": "backend",
+   "label": "016 全景大图谱",
+   "width": 210
+  },
+  {
+   "id": "c16a",
+   "lane": "ch16",
+   "col": 1,
+   "type": "frontend",
+   "label": "端到端工程总链",
+   "width": 165
+  },
+  {
+   "id": "c16b",
+   "lane": "ch16",
+   "col": 2,
+   "type": "frontend",
+   "label": "四世界变换地图",
+   "width": 165
+  }
+ ],
+ "edges": [
+  {
+   "from": "n01",
+   "to": "c01a"
+  },
+  {
+   "from": "c01a",
+   "to": "c01b"
+  },
+  {
+   "from": "c01b",
+   "to": "c01c"
+  },
+  {
+   "from": "n01",
+   "to": "n02",
+   "route": "drop",
+   "fromSide": "bottom",
+   "toSide": "top"
+  },
+  {
+   "from": "n02",
+   "to": "c02a"
+  },
+  {
+   "from": "c02a",
+   "to": "c02b"
+  },
+  {
+   "from": "c02b",
+   "to": "c02c"
+  },
+  {
+   "from": "n02",
+   "to": "n03",
+   "route": "drop",
+   "fromSide": "bottom",
+   "toSide": "top"
+  },
+  {
+   "from": "n03",
+   "to": "c03a"
+  },
+  {
+   "from": "c03a",
+   "to": "c03b"
+  },
+  {
+   "from": "c03b",
+   "to": "c03c"
+  },
+  {
+   "from": "n03",
+   "to": "n04",
+   "route": "drop",
+   "fromSide": "bottom",
+   "toSide": "top"
+  },
+  {
+   "from": "n04",
+   "to": "c04a"
+  },
+  {
+   "from": "c04a",
+   "to": "c04b"
+  },
+  {
+   "from": "c04b",
+   "to": "c04c"
+  },
+  {
+   "from": "n04",
+   "to": "n05",
+   "route": "drop",
+   "fromSide": "bottom",
+   "toSide": "top"
+  },
+  {
+   "from": "n05",
+   "to": "c05a"
+  },
+  {
+   "from": "c05a",
+   "to": "c05b"
+  },
+  {
+   "from": "c05b",
+   "to": "c05c"
+  },
+  {
+   "from": "n05",
+   "to": "n06",
+   "route": "drop",
+   "fromSide": "bottom",
+   "toSide": "top"
+  },
+  {
+   "from": "n06",
+   "to": "c06a"
+  },
+  {
+   "from": "c06a",
+   "to": "c06b"
+  },
+  {
+   "from": "c06b",
+   "to": "c06c"
+  },
+  {
+   "from": "n06",
+   "to": "n07",
+   "route": "drop",
+   "fromSide": "bottom",
+   "toSide": "top"
+  },
+  {
+   "from": "n07",
+   "to": "c07a"
+  },
+  {
+   "from": "c07a",
+   "to": "c07b"
+  },
+  {
+   "from": "c07b",
+   "to": "c07c"
+  },
+  {
+   "from": "n07",
+   "to": "n08",
+   "route": "drop",
+   "fromSide": "bottom",
+   "toSide": "top"
+  },
+  {
+   "from": "n08",
+   "to": "c08a"
+  },
+  {
+   "from": "c08a",
+   "to": "c08b"
+  },
+  {
+   "from": "c08b",
+   "to": "c08c"
+  },
+  {
+   "from": "n08",
+   "to": "n09",
+   "route": "drop",
+   "fromSide": "bottom",
+   "toSide": "top"
+  },
+  {
+   "from": "n09",
+   "to": "c09a"
+  },
+  {
+   "from": "c09a",
+   "to": "c09b"
+  },
+  {
+   "from": "c09b",
+   "to": "c09c"
+  },
+  {
+   "from": "n09",
+   "to": "n10",
+   "route": "drop",
+   "fromSide": "bottom",
+   "toSide": "top"
+  },
+  {
+   "from": "n10",
+   "to": "c10a"
+  },
+  {
+   "from": "c10a",
+   "to": "c10b"
+  },
+  {
+   "from": "c10b",
+   "to": "c10c"
+  },
+  {
+   "from": "n10",
+   "to": "n11",
+   "route": "drop",
+   "fromSide": "bottom",
+   "toSide": "top"
+  },
+  {
+   "from": "n11",
+   "to": "c11a"
+  },
+  {
+   "from": "c11a",
+   "to": "c11b"
+  },
+  {
+   "from": "c11b",
+   "to": "c11c"
+  },
+  {
+   "from": "n11",
+   "to": "n12",
+   "route": "drop",
+   "fromSide": "bottom",
+   "toSide": "top"
+  },
+  {
+   "from": "n12",
+   "to": "c12a"
+  },
+  {
+   "from": "c12a",
+   "to": "c12b"
+  },
+  {
+   "from": "c12b",
+   "to": "c12c"
+  },
+  {
+   "from": "n12",
+   "to": "n13",
+   "route": "drop",
+   "fromSide": "bottom",
+   "toSide": "top"
+  },
+  {
+   "from": "n13",
+   "to": "c13a"
+  },
+  {
+   "from": "c13a",
+   "to": "c13b"
+  },
+  {
+   "from": "c13b",
+   "to": "c13c"
+  },
+  {
+   "from": "n13",
+   "to": "n14",
+   "route": "drop",
+   "fromSide": "bottom",
+   "toSide": "top"
+  },
+  {
+   "from": "n14",
+   "to": "c14a"
+  },
+  {
+   "from": "c14a",
+   "to": "c14b"
+  },
+  {
+   "from": "c14b",
+   "to": "c14c"
+  },
+  {
+   "from": "n14",
+   "to": "n15",
+   "route": "drop",
+   "fromSide": "bottom",
+   "toSide": "top"
+  },
+  {
+   "from": "n15",
+   "to": "c15a"
+  },
+  {
+   "from": "c15a",
+   "to": "c15b"
+  },
+  {
+   "from": "c15b",
+   "to": "c15c"
+  },
+  {
+   "from": "n15",
+   "to": "n16",
+   "route": "drop",
+   "fromSide": "bottom",
+   "toSide": "top"
+  },
+  {
+   "from": "n16",
+   "to": "c16a"
+  },
+  {
+   "from": "c16a",
+   "to": "c16b"
+  }
+ ],
+ "cards": [
+  {
+   "dot": "cyan",
+   "title": "四段主线",
+   "items": [
+    "001–003 时域基础：分类、建模、卷积",
+    "004–009 变换域：傅里叶、拉普拉斯、零极点、Bode",
+    "010–014 采样与离散世界：采样定理、DTFT、Z、DFT",
+    "015–016 综合与收拢：工程案例 + 全景大图谱"
+   ]
+  },
+  {
+   "dot": "emerald",
+   "title": "阅读方式",
+   "items": [
+    "主脊即推荐阅读顺序，编号 001→016",
+    "每篇向右延展的分支是该篇重点内容目录",
+    "硬性依赖以各篇前置知识为准：采样依赖 006，抗混叠调用 009",
+    "选读内容（STFT、状态空间、最小相位）可在第二遍回读"
+   ]
+  },
+  {
+   "dot": "amber",
+   "title": "验收与收拢",
+   "items": [
+    "各篇验收出口在篇末自测与 12-信号与系统测验题",
+    "按控制/DSP 目标分流的路径见 000 §3",
+    "学完全部章节后用 016 全景大图谱收拢全局",
+    "大图谱第二层提供四个世界的变换地图与八视角家族"
+   ]
+  }
+ ]
+}
