@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ESP8266 控制台 · 交互预览</title>
+<style>
+  body{font-family:system-ui;background:#0f172a;color:#e2e8f0;
+       max-width:520px;margin:0 auto;padding:24px}
+  h1{font-size:20px} .card{background:#1e293b;border-radius:12px;
+       padding:20px;margin:16px 0}
+  #led{width:64px;height:64px;border-radius:50%;margin:0 auto 12px;
+       background:#334155;transition:.15s}
+  #led.on{background:#facc15;box-shadow:0 0 32px #facc1555}
+  button{width:100%;padding:14px;font-size:16px;border:none;
+       border-radius:10px;background:#3b82f6;color:#fff;cursor:pointer}
+  button:active{transform:scale(.97)}
+  .row{display:flex;justify-content:space-between;padding:8px 0;
+       border-bottom:1px solid #334155}
+  .val{font-variant-numeric:tabular-nums;color:#38bdf8}
+  #bar{height:8px;background:#334155;border-radius:4px;overflow:hidden}
+  #bar i{display:block;height:100%;width:50%;background:#22c55e;transition:width .5s}
+  .note{color:#94a3b8;font-size:13px}
+</style>
+</head>
+<body>
+<h1>🎛️ ESP8266 Web 控制台 <span class="note">（浏览器模拟版）</span></h1>
+
+<div class="card" style="text-align:center">
+  <div id="led"></div>
+  <button onclick="toggle()">切换 LED</button>
+</div>
+
+<div class="card">
+  <div class="row"><span>ADC 原始值</span><span class="val" id="adc">--</span></div>
+  <div class="row"><span>电压（A0）</span><span class="val" id="volt">--</span></div>
+  <div class="row"><span>WiFi 信号</span><span class="val" id="rssi">--</span></div>
+  <div class="row"><span>IP 地址</span><span class="val" id="ip">192.168.1.87</span></div>
+  <div id="bar" style="margin-top:12px"><i id="barfill"></i></div>
+</div>
+
+<p class="note">
+  本页用 JavaScript 模拟了 .ino 固件的行为：LED 可真实切换；
+  ADC/信号强度由模拟数据流驱动（正弦波动），方便先体验交互，
+  再接真硬件。
+</p>
+
+<script>
+// ---- 模拟固件端的"状态机"（真机上由 ESP8266 提供）----
+let ledState = false;
+let t = 0;
+
+function fakeAdc() {           // 模拟传感器波动
+  return Math.round(512 + 300 * Math.sin(t / 8) + (Math.random()-0.5)*24);
+}
+function apply(d) {
+  document.getElementById('led').className   = d.led ? 'on' : '';
+  document.getElementById('adc').textContent  = d.adc;
+  document.getElementById('volt').textContent = d.volt.toFixed(3) + ' V';
+  document.getElementById('rssi').textContent   = d.rssi + ' dBm';
+  document.getElementById('barfill').style.width =
+      Math.min(100, Math.max(0, (d.rssi+90)/50*100)) + '%';
+}
+function poll(){                 // 对应固件 GET /api/status
+  t++;
+  apply({
+    led:  ledState,
+    adc:  fakeAdc(),
+    volt: fakeAdc() * 3.3 / 1023,
+    rssi: -48 + Math.round(Math.sin(t/15)*6),
+  });
+}
+function toggle(){               // 对应固件 POST /api/led
+  ledState = !ledState;
+  poll();
+}
+setInterval(poll, 500);          // 预览版加速到 0.5s，真机为 2s
+poll();
+</script>
+</body>
+</html>
