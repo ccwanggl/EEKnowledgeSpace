@@ -35,6 +35,8 @@ python "13-Appendix/04-知识库维护/validate_code_examples.py"
 - 外部图片需要来源说明，关键图优先本地保存，避免依赖热链。
 - 主题总览负责学习顺序和静态入口，Dataview 只作为辅助视图。
 
+新增专题时，可在模块入口接入一个能独立验收的任务。按 [[01-Foundations/09-学习方法与工具/011-用AI安排碎片时间自学|碎片时间自学方法]] 中的组织方式连接先修、入口题、正文、视频与复测。
+
 ## 历史与备份
 
 - 重构前完整备份：`E:/EEDevSpace/backups/EEKnowledgeSpace-before-restructure-20260714.zip`

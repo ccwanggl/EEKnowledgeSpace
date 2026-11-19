@@ -638,7 +638,7 @@ http://www.pengzhihui.xyz/ (二维码自动识别)
 
 [blog.csdn.net/u01067123](https://link.zhihu.com/?target=https%3A//blog.csdn.net/u010671230/article/details/79478648) （文章公式有不少错误）
 
-[Field Oriented Control of Permanent Magnet Motors](https://link.zhihu.com/?target=https%3A//www.youtube.com/watch%3Fv%3DcdiZUszYLiA%26t%3D2256s) - TI
+[Field Oriented Control of Permanent Magnet Motors（TI 官方视频）](https://www.ti.com/video/3871706529001)
 
 [zhuanlan.zhihu.com/p/72](https://zhuanlan.zhihu.com/p/72091265)
 
