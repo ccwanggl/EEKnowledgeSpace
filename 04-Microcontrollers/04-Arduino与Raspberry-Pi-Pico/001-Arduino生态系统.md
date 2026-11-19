@@ -36,3 +36,4 @@ date-created: 2026-06-15
 
 ---
 
+**可结合本节观看的案例**　Paul McWhorter 和 DroneBot Workshop 的入门视频可配合引脚、传感器与小项目。工作电压和接线回看开发板的资料。

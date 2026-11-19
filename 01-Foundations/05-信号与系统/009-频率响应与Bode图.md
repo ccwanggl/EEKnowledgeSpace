@@ -17,6 +17,16 @@ date-updated: 2026-11-04
 
 ---
 
+## 配套视频
+
+**Brian Douglas：Bode 图入门**
+
+对照视频说明中的勘误。从 RC 截止频率开始手画幅相图，再核对截止处的幅值和相位。
+
+<iframe src="https://www.youtube.com/embed/_eh1conN6YM" title="Brian Douglas：Bode 图入门" width="100%" height="360" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+
+[打开原页](https://www.youtube.com/watch?v=_eh1conN6YM)
+
 ## 1. 从正弦测试理解频率响应
 
 想象你正在调试一个音频放大器：

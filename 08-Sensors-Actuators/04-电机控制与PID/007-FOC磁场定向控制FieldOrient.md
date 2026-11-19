@@ -236,8 +236,8 @@ void FOC_SpeedLoop(float speed_measured)
 - **ST Motor Control Wiki** — STM32 电机控制知识库
 - **《Brushless Motors and Controllers》**（Jacek F. Gieras）— 电机控制经典教材
 - **《Electric Motor Drives》**（R. Krishnan）— 深入理论
-- **YouTube: Ben Katz** — MIT Cheetah 机器人 BLDC 驱动（[[01-YouTube频道推荐]]）
-- **YouTube: SimpleFOC** — 开源 FOC 项目教程（[[01-YouTube频道推荐]]）
+- **YouTube: Ben Katz** — MIT Cheetah 机器人 BLDC 驱动
+- **YouTube: SimpleFOC** — 开源 FOC 项目教程
 
 ---
 

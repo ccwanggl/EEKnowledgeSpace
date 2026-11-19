@@ -23,3 +23,4 @@ date-created: 2026-06-15
 
 ---
 
+**可结合本节观看的案例**　[Bootlin 培训材料](https://bootlin.com/training/)可配合系统、工具链与内核学习。Shawn Hymel 的嵌入式 Linux 示例适合跟做。

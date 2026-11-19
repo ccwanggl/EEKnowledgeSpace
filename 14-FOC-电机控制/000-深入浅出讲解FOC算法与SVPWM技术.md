@@ -203,6 +203,15 @@ tags:
 
 ## FOC 控制原理
 
+**TI：Field Oriented Control of Permanent Magnet Motors**
+
+边看边按下文画出电流采样、Clarke/Park、PI、逆变换与 PWM 的数据流。
+
+<iframe src="https://www.youtube.com/embed/cdiZUszYLiA" title="TI：Field Oriented Control of Permanent Magnet Motors" width="100%" height="360" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+
+[打开原页](https://www.ti.com/video/3871706529001)
+
+
 > ok基础知识铺垫完毕，终于要进入正题啦~
 
 大家刚开始接触FOC查阅相关资料文献的时候，可能都会感觉有点晕：
@@ -638,7 +647,6 @@ http://www.pengzhihui.xyz/ (二维码自动识别)
 
 [blog.csdn.net/u01067123](https://link.zhihu.com/?target=https%3A//blog.csdn.net/u010671230/article/details/79478648) （文章公式有不少错误）
 
-[Field Oriented Control of Permanent Magnet Motors（TI 官方视频）](https://www.ti.com/video/3871706529001)
 
 [zhuanlan.zhihu.com/p/72](https://zhuanlan.zhihu.com/p/72091265)
 

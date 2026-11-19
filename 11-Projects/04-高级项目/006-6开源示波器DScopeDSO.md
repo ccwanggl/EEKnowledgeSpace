@@ -25,7 +25,7 @@ date-created: 2026-06-15
 ### 参考
 - **"DScope"** 开源项目（Hackaday）
 - **"Open Scope"**（Digilent）— 教育开源示波器
-- **The Signal Path** — 高速 ADC 和采样理论（[[01-YouTube频道推荐]]）
+- **The Signal Path** — 高速 ADC 和采样理论
 
 ---
 

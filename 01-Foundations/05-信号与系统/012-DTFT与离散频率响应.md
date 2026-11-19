@@ -11,6 +11,16 @@ date-updated: 2026-11-04
 > **本章回答**：离散序列有哪些频率？数字滤波器怎样改变每个频率？
 > **本章边界**：建立 DTFT；有限数据的 DFT、窗函数和 FFT 在 014 展开。
 
+## MIT 课程讲解
+
+**MIT RES.6-007 第 11 讲：离散时间傅里叶变换**
+
+用同一个一阶离散系统检查频率响应的周期性。
+
+<iframe src="https://www.youtube.com/embed/HKMY-8BqWWw" title="MIT RES.6-007 第 11 讲：离散时间傅里叶变换" width="100%" height="360" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+
+[打开原页](https://ocw.mit.edu/courses/res-6-007-signals-and-systems-spring-2011/resources/lecture-11-discrete-time-fourier-transform/)
+
 ## 1. 从复指数到分析与合成
 
 离散 LTI 系统对 $e^{j\Omega n}$ 的零状态响应为

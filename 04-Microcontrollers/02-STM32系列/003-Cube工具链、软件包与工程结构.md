@@ -9,6 +9,16 @@ aliases: [STM32开发环境, STM32Cube工具链]
 
 STM32CubeMX 负责引脚、时钟、外设和中间件配置并生成初始化代码。编译、调试、下载、监控和持续集成由其他工具完成。把这些工具的版本与职责分开，工程才容易复现和升级。
 
+## 配套视频
+
+**ST：STM32CubeIDE 基础第一讲**
+
+以本机的板卡与工具版本建立工程，再用断点检查下载和启动结果。
+
+<iframe src="https://www.youtube.com/embed/gL8OoS9E1rw" title="ST：STM32CubeIDE 基础第一讲" width="100%" height="360" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+
+[打开原页](https://www.st.com/content/st_com/en/support/learning/stm32-moocs/STM32CubeIDE_basics_MOOC.html)
+
 ## 工具怎样分工
 
 | 工具 | 主要用途 |
@@ -75,3 +85,5 @@ Config/                板型、功能开关和版本化参数
 - [[010-HAL、LL、寄存器与驱动分层]]
 - [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx)
 - [STM32 软件开发工具](https://www.st.com/en/development-tools/STM32-software-development-tools.html)
+
+**可结合本节观看的案例**　英文配套可按需选择 FastBit 的 STM32 教程。江协科技、正点原子和野火的中文视频要先确认使用的是标准外设库、HAL 还是寄存器。

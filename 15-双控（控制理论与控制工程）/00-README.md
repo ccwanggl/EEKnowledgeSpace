@@ -42,7 +42,9 @@ DR_CAN 的推荐顺序提供了与本专题对应的另一条视频主线：
 
 ![[DR_CAN推荐学习路径.excalidraw|1500]]
 
-视频合集、嵌入播放器与每个合集对应的知识库章节见 [[DR_CAN视频合集索引]]。图中的内容用于确定先后依赖，不替代本专题的 10 阶段工程学习计划。
+<iframe src="https://player.bilibili.com/player.html?bvid=BV1KH4y197R1&amp;autoplay=0&amp;danmaku=0" title="DR_CAN：推荐学习顺序" width="100%" height="360" loading="lazy" allowfullscreen></iframe>
+
+[在 B 站打开推荐学习顺序](https://www.bilibili.com/video/BV1KH4y197R1)。图中的顺序可用来理解先修，相关合集放在建模、经典控制、状态空间、PID、MPC 等正文中。
 
 | 阶段 | 模块 | 认知层级 | 周数 | 核心产出 |
 |------|------|---------|------|----------|
@@ -224,7 +226,7 @@ graph LR
 | **Phil's Lab** | YouTube | 模拟/数字电路、PCB、FPGA、控制、电源设计 | 02-经典控制频域设计、04-PID、09-工程实现 |
 | **FastBit Embedded Brain Academy** | YouTube | STM32 嵌入式最系统课程，寄存器→HAL→RTOS | 05-数字控制、09-工程实现（STM32 平台） |
 | **速比特电子** | Bilibili | FOC 电机控制、Clark/Park 变换、控制理论可视化 | 02-经典控制、03-状态空间、04-PID（中文） |
-| **DR_CAN** | Bilibili | 控制理论中文 No.1：经典控制→现代控制→MPC→卡尔曼→最优控制，合集完整、推导清晰 | 全模块（见[[DR_CAN视频合集索引\|合集索引]]） |
+| **DR_CAN** | Bilibili | 控制理论中文 No.1：经典控制→现代控制→MPC→卡尔曼→最优控制，合集完整、推导清晰 | 见对应技术章节的配套资料 |
 | **江协科技** | Bilibili | STM32 标准库+HAL 最系统的中文教程 | 05-数字控制、09-工程实现（中文） |
 | **爱上半导体** | Bilibili/YouTube | 硬件原理可视化极好，CAN、I2C、LCD、MOS 管 | 09-工程实现中的通信与硬件接口（中文） |
 | **MIT OCW: 6.002 Circuits and Electronics** | MIT OpenCourseWare | 经典 MIT 电路课程，频域分析、反馈系统 | 01-导论、02-经典控制理论基础 |

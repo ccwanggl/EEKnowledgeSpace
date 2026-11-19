@@ -31,3 +31,4 @@ date-created: 2026-06-15
 
 ---
 
+**可结合本节观看的案例**　Jeri Ellsworth、Phil’s Lab 的 FPGA 项目可配合编程与调试流程。艾熊博士和 Studytronix 可用于补充中文数字设计与 Verilog 示例。

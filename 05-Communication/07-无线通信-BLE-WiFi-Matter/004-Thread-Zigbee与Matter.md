@@ -72,3 +72,5 @@ Thread 与 Zigbee 的共同要求是支持 IEEE 802.15.4 射频，Matter 则在�
 选型时要核对：是否支持所需的并发协议组合、是否有可用的 Matter SDK 支持（如 ESP-Matter 或芯片厂商的 Matter 例程）、Flash/RAM 余量、是否支持安全存储用于凭证与密钥。若产品要充当 Matter 控制器或边界路由器，还需要 Linux 级别的网络能力，见 [[10-RTOS与系统/05-嵌入式Linux入门/05-嵌入式Linux入门|嵌入式 Linux 入门]]；Zephyr 对 Thread 与 Matter 的原生支持可作为多协议固件的工程基础，见 [[10-RTOS与系统/03-Zephyr/03-Zephyr|Zephyr]]。具体的入网失败与信道问题排查见 [[05-Communication/07-无线通信-BLE-WiFi-Matter/007-无线协议选型与调试|无线协议选型与调试]]。
 
 模块化选择也值得考虑：使用带认证的 Thread/Matter 模组可以把射频设计与认证压力转移给模组厂商，主控只需处理应用逻辑，代价是模组的供货与固件升级路线受制于供应商；单芯片方案（把射频与主控集成）成本更低、体积更小，但需要自己承担射频布局与认证。两者的取舍标准是产量、团队射频能力和认证时间预算，而不是单纯的 BOM 成本。
+
+**可结合本节观看的案例**　Andreas Spiess 和 Home Assistant 的案例可用于对照设备配网、Matter 生态与协议分层。

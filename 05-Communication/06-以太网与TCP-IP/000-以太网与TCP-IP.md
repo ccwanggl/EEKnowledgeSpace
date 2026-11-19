@@ -76,5 +76,5 @@ flowchart LR
 
 - W. Richard Stevens，《TCP/IP Illustrated, Vol 1》——协议行为与报文格式的权威参考。
 - lwIP 官方文档与源码（savannah.nongnu.org/projects/lwip/）——`lwipopts.h` 选项说明与 `doc/` 目录下的移植指南。
-- Ben Eater 网络协议系列、Practical Networking 图解系列，见 [[12-Resources/01-YouTube频道推荐/001-入门基础Beginner|YouTube频道推荐]]。
+- Ben Eater 网络协议系列、Practical Networking 图解系列，可结合本章分层图对照网络抓包。
 - 所用 PHY 与 MAC 的数据手册、参考手册中的以太网章节，以及厂商的 lwIP 移植应用笔记。
