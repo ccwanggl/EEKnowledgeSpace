@@ -40,4 +40,4 @@ python "13-Appendix/04-知识库维护/validate_code_examples.py"
 ## 历史与备份
 
 - 重构前完整备份：`E:/EEDevSpace/backups/EEKnowledgeSpace-before-restructure-20260714.zip`
-- 原总首页：[[00-Index/99-历史总索引归档|历史总索引归档]]
+- 原总首页：[[13-Appendix/04-知识库维护/99-历史总索引归档|历史总索引归档]]
