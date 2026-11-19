@@ -17,6 +17,7 @@ date-created: 2026-06-17
 - [[12-Resources/04-经典书籍推荐/001-综合入门|经典书籍推荐]]
 - [[12-Resources/05-标准与认证/001-PCB设计与制造标准|标准与认证]]
 - [[12-Resources/06-瑞芯微Rockchip-SDK获取指南|瑞芯微 Rockchip SDK 获取指南]]
+- [[12-Resources/07-B站视频课程推荐|B 站视频课程推荐]]
 
 ---
 
